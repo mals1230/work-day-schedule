@@ -24,6 +24,7 @@ textarea {
 
 .description{
   white-space: pre-wrap;
+
 }
 /* added time-block class to HTML */
 .time-block{
@@ -42,6 +43,8 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .past {
@@ -50,7 +53,7 @@ textarea {
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #06AED5;
   color: white;
 }
 
@@ -66,6 +69,10 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom:25px;
 }
 
 /* MAL NOTE - MIGHT REMOVE THE I. I DON'T HAVE IT SET UP THAT WAY */
