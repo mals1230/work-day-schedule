@@ -1,9 +1,10 @@
+/* body element properties */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
-
+/* textarea element properties */
 textarea {
   background: transparent;
   border: none;
@@ -12,7 +13,7 @@ textarea {
   border-left: 1px solid black;
   padding: 10px;
 }
-
+/* jumbotron class given with HTML starter code - connected */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -24,7 +25,7 @@ textarea {
 .description{
   white-space: pre-wrap;
 }
-
+/* added time-block class to HTML */
 .time-block{
   text-align: center;
   border-radius: 15px;
