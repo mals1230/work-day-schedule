@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -14,11 +15,15 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js">
+    </script>
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,9 +35,55 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div class = "row">
+        <div class = "hour col my-col col-a1 colorcode" id = "9"> 9 am </div>
+        <div class = "col my-col col-a2 edit_cont" > </div>
+        <div class = "col my-col col-a3 saveBtn"> save </div>
+      </div>
+      <div class = "row">
+        <div class = "hour col my-col col-b1 colorcode" id = "10"> 10 am </div>
+        <div class = "col my-col col-b2 edit_cont">  </div>
+        <div class = "col my-col col-b3 saveBtn"> save </div>
+      </div>
+      <div class = "row">
+        <div class = "hour col my-col col-b1 colorcode" id = "11"> 11 am </div>
+        <div class = "col my-col col-b2 edit_cont">  </div>
+        <div class = "col my-col col-b3 saveBtn"> save </div>
+      </div>
+      <div class = "row">
+        <div class = "hour col my-col col-b1 colorcode" id = "12"> 12 pm </div>
+        <div class = "col my-col col-b2 edit_cont">  </div>
+        <div class = "col my-col col-b3 saveBtn"> save </div>
+      </div>
+      <div class = "row">
+        <div class = "hour col my-col col-b1 colorcode" id = "1"> 1 pm </div>
+        <div class = "col my-col col-b2 edit_cont">  </div>
+        <div class = "col my-col col-b3 saveBtn"> save </div>
+      </div>
+      <div class = "row">
+        <div class = "hour col my-col col-b1 colorcode" id = "2"> 2 pm </div>
+        <div class = "col my-col col-b2 edit_cont">  </div>
+        <div class = "col my-col col-b3 saveBtn"> save </div>
+      </div>
+      <div class = "row">
+        <div class = "hour col my-col col-b1 colorcode" id = "3"> 3 pm </div>
+        <div class = "col my-col col-b2 edit_cont">  </div>
+        <div class = "col my-col col-b3 saveBtn"> save </div>
+      </div>
+      <div class = "row">
+        <div class = "hour col my-col col-b1 colorcode" id = "4"> 4 pm </div>
+        <div class = "col my-col col-b2 edit_cont">  </div>
+        <div class = "col my-col col-b3 saveBtn"> save </div>
+      </div>
+      <div class = "row">
+        <div class = "hour col my-col col-b1 colorcode" id = "5"> 5 pm </div>
+        <div class = "col my-col col-b2 edit_cont">  </div>
+        <div class = "col my-col col-b3 saveBtn"> save </div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
+  <script src="./assets/script.js"></script>
 </html>
