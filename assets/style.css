@@ -7,12 +7,19 @@ body {
 /* textarea element properties */
 textarea {
   background: transparent;
+  width: 100%;
   border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+
+.form-control {
+  background: transparent;
+}
+
 /* jumbotron class given with HTML starter code - connected */
 .jumbotron {
   text-align: center;
@@ -24,10 +31,11 @@ textarea {
 
 .description{
   white-space: pre-wrap;
+  
 
 }
 /* added time-block class to HTML */
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
@@ -75,8 +83,9 @@ textarea {
   padding-bottom:25px;
 }
 
-/* MAL NOTE - MIGHT REMOVE THE I. I DON'T HAVE IT SET UP THAT WAY */
+/* when you hover over the floppy disk icon, it get's smaller */
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
