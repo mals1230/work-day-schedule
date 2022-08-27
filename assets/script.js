@@ -42,30 +42,30 @@ $(".saveBtn").on("click", function(){
     console.log(userInput);
 });
 
-// setting local storage for all my schedule entry's
-var scheduleEntry9a= document.getElementById("fc9");
+// setting local storage for all my tasks/events
+var scheduleEntry= document.getElementById("fc9");
 localStorage.setItem("9am schedule ", scheduleEntry.value);
 
-var scheduleEntry10a= document.getElementById("fc10");
+scheduleEntry= document.getElementById("fc10");
 localStorage.setItem("10am schedule ", scheduleEntry.value);
 
-var scheduleEntry11a= document.getElementById("fc11");
+scheduleEntry= document.getElementById("fc11");
 localStorage.setItem("11am schedule ", scheduleEntry.value);
 
-var scheduleEntry12n= document.getElementById("fc12");
+scheduleEntry= document.getElementById("fc12");
 localStorage.setItem("12pm schedule ", scheduleEntry.value);
 
-var scheduleEntry1p= document.getElementById("fc13");
+scheduleEntry= document.getElementById("fc13");
 localStorage.setItem("1pm schedule ", scheduleEntry.value);
 
-var scheduleEntry2p= document.getElementById("fc14");
+scheduleEntry= document.getElementById("fc14");
 localStorage.setItem("2pm schedule ", scheduleEntry.value);
 
-var scheduleEntry3p= document.getElementById("fc15");
+scheduleEntry= document.getElementById("fc15");
 localStorage.setItem("3pm schedule ", scheduleEntry.value);
 
-var scheduleEntry4p= document.getElementById("fc16");
+scheduleEntry= document.getElementById("fc16");
 localStorage.setItem("4pm schedule ", scheduleEntry.value);
 
-var scheduleEntry5p= document.getElementById("fc17");
+scheduleEntry= document.getElementById("fc17");
 localStorage.setItem("5pm schedule ", scheduleEntry.value);
