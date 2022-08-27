@@ -36,12 +36,6 @@ $(document).ready(function(){
     background()
 })
 
-
-$(".saveBtn").on("click", function(){
-    userInput = $(this).siblings("#fc9").val().trim();
-    console.log(userInput);
-});
-
 // setting local storage for all my tasks/events
 var scheduleEntry= document.getElementById("fc9");
 localStorage.setItem("9am schedule ", scheduleEntry.value);
