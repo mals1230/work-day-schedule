@@ -6,15 +6,6 @@ console.log(today);
 // Defining variables for the time-blocks
 var currentHour = moment().format('h:mm:ss a');
 console.log(currentHour);
-var nine = $("#9");
-var ten = $("#10");
-var eleven = $("#11");
-var twelve = $("#12");
-var one = $("#1");
-var two = $("#2");
-var three = $("#3");
-var four = $("#4");
-var five = $("#5");
 
 var hour = moment().hours();
 console.log(hour)
@@ -51,29 +42,30 @@ $(".saveBtn").on("click", function(){
     console.log(userInput);
 });
 
-var scheduleEntry= document.getElementById("fc9");
+// setting local storage for all my schedule entry's
+var scheduleEntry9a= document.getElementById("fc9");
 localStorage.setItem("9am schedule ", scheduleEntry.value);
 
-scheduleEntry= document.getElementById("fc10");
+var scheduleEntry10a= document.getElementById("fc10");
 localStorage.setItem("10am schedule ", scheduleEntry.value);
 
-scheduleEntry= document.getElementById("fc11");
+var scheduleEntry11a= document.getElementById("fc11");
 localStorage.setItem("11am schedule ", scheduleEntry.value);
 
-scheduleEntry= document.getElementById("fc12");
+var scheduleEntry12n= document.getElementById("fc12");
 localStorage.setItem("12pm schedule ", scheduleEntry.value);
 
-scheduleEntry= document.getElementById("fc13");
+var scheduleEntry1p= document.getElementById("fc13");
 localStorage.setItem("1pm schedule ", scheduleEntry.value);
 
-scheduleEntry= document.getElementById("fc14");
+var scheduleEntry2p= document.getElementById("fc14");
 localStorage.setItem("2pm schedule ", scheduleEntry.value);
 
-scheduleEntry= document.getElementById("fc15");
+var scheduleEntry3p= document.getElementById("fc15");
 localStorage.setItem("3pm schedule ", scheduleEntry.value);
 
-scheduleEntry= document.getElementById("fc16");
+var scheduleEntry4p= document.getElementById("fc16");
 localStorage.setItem("4pm schedule ", scheduleEntry.value);
 
-scheduleEntry= document.getElementById("fc17");
+var scheduleEntry5p= document.getElementById("fc17");
 localStorage.setItem("5pm schedule ", scheduleEntry.value);
